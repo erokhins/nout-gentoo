@@ -7,7 +7,7 @@
 #modules_2="ipv6"
 #modules="ohci1394"
 
-modules="ath9k mac80211 cfg80211 bbswitch"
+modules="ath9k mac80211 cfg80211"
 
 # You can give modules a different name when they load - the new name
 # will also be used to pick arguments below.
@@ -24,4 +24,4 @@ modules="ath9k mac80211 cfg80211 bbswitch"
 # You should consult your kernel documentation and configuration
 # for a list of modules and their options.
 
-options bbswitch load_state=0
+#options bbswitch load_state=0
